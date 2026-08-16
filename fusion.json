@@ -1,0 +1,32 @@
+{
+  "name": "Fusion (Unofficial)",
+  "subtitle": "Fusion builds for AltStore and SideStore.",
+  "description": "Automatisch generierte Update-Quelle für Fusion von yodaluca23.",
+  "website": "https://github.com/yodaluca23/Fusion-AltStore",
+  "tintColor": "1E90FF",
+  "news": [],
+  "apps": [
+    {
+      "name": "Fusion",
+      "bundleIdentifier": "dev.fusionapp.Fusion",
+      "developerName": "yodaluca23",
+      "subtitle": "Fusion für iOS",
+      "localizedDescription": "Fusion, unsigned IPA aus den GitHub-Releases.",
+      "iconURL": "https://avatars.githubusercontent.com/u/67206487?s=400&v=4",
+      "tintColor": "1E90FF",
+      "category": "entertainment",
+      "versions": [
+        {
+          "version": "1.2026.192",
+          "buildVersion": "168",
+          "date": "2026-08-04T23:27:00Z",
+          "localizedDescription": "New fixes for atmos.",
+          "downloadURL": "https://github.com/yodaluca23/Fusion-AltStore/releases/download/1.2026.192/Fusion-unsigned-ios.ipa",
+          "size": 26747714,
+          "sha256": "24a7d40aba2e061ce713b990050f76e64fdd500fb757d17db85c7f4fb30e80f0",
+          "minOSVersion": "26.0"
+        }
+      ]
+    }
+  ]
+}
