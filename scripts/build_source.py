@@ -14,6 +14,11 @@ SOURCE_PATH = Path(__file__).resolve().parent.parent / "fusion.json"
 BUNDLE_IDENTIFIER = "dev.fusionapp.Fusion"
 ICON_URL = "https://avatars.githubusercontent.com/u/67206487?s=400&v=4"
 ASSET_SUFFIX = "-ios.ipa"
+SCREENSHOT_URLS = [
+    "https://raw.githubusercontent.com/sti000en/fusion-altstore-source/main/screenshots/screenshot-1.jpg",
+    "https://raw.githubusercontent.com/sti000en/fusion-altstore-source/main/screenshots/screenshot-2.jpg",
+    "https://raw.githubusercontent.com/sti000en/fusion-altstore-source/main/screenshots/screenshot-3.jpg",
+]
 
 
 def api_headers():
@@ -139,6 +144,7 @@ def default_source():
                 "iconURL": ICON_URL,
                 "tintColor": "1E90FF",
                 "category": "entertainment",
+                "screenshotURLs": SCREENSHOT_URLS,
                 "versions": [],
             }
         ],
