@@ -12,7 +12,7 @@ REPO = "yodaluca23/Fusion-AltStore"
 API_URL = f"https://api.github.com/repos/{REPO}/releases"
 SOURCE_PATH = Path(__file__).resolve().parent.parent / "fusion.json"
 BUNDLE_IDENTIFIER = "dev.fusionapp.Fusion"
-ICON_URL = "https://avatars.githubusercontent.com/u/67206487?s=400&v=4"
+ICON_URL = "https://raw.githubusercontent.com/sti000en/fusion-altstore-source/main/icon.png"
 ASSET_SUFFIX = "-ios.ipa"
 SCREENSHOT_URLS = [
     "https://raw.githubusercontent.com/sti000en/fusion-altstore-source/main/screenshots/screenshot-1.jpg",
