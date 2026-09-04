@@ -1,17 +1,17 @@
 # fusion-altstore-source
 
-Automatisch aktualisierte AltStore/SideStore-Quelle für [Fusion](https://github.com/yodaluca23/Fusion-AltStore) von yodaluca23.
+Automatically updated AltStore/SideStore source for [Fusion](https://github.com/yodaluca23/Fusion-AltStore) by yodaluca23.
 
-Ein täglicher GitHub-Actions-Workflow (`.github/workflows/update.yml`) prüft die Releases des Upstream-Repos, lädt bei Bedarf die neue `Fusion-unsigned-ios.ipa`, liest deren `Info.plist` aus und aktualisiert `fusion.json` nach dem [AltStore-Source-Schema](https://faq.altstore.io/altstore-2/creating-your-own-altstore-source).
+A daily GitHub Actions workflow (`.github/workflows/update.yml`) checks the upstream repo's releases, downloads the new `Fusion-unsigned-ios.ipa` if needed, reads its `Info.plist`, and updates `fusion.json` according to the [AltStore source schema](https://faq.altstore.io/altstore-2/creating-your-own-altstore-source).
 
-## SideStore/AltStore hinzufügen
+## Add to SideStore/AltStore
 
-Quelle in SideStore oder AltStore hinzufügen:
+Add this source in SideStore or AltStore:
 
 ```
 https://raw.githubusercontent.com/sti000en/fusion-altstore-source/main/fusion.json
 ```
 
-## Hinweis
+## Note
 
-Fusion benötigt **iOS 26.0 oder neuer**.
+Fusion requires **iOS 26.0 or newer**.
