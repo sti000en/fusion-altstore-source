@@ -13,6 +13,7 @@ API_URL = f"https://api.github.com/repos/{REPO}/releases"
 SOURCE_PATH = Path(__file__).resolve().parent.parent / "fusion.json"
 BUNDLE_IDENTIFIER = "dev.fusionapp.Fusion"
 ICON_URL = "https://raw.githubusercontent.com/sti000en/fusion-altstore-source/main/icon-v3.png"
+HEADER_URL = "https://raw.githubusercontent.com/sti000en/fusion-altstore-source/main/header.jpeg"
 ASSET_SUFFIX = "-ios.ipa"
 SCREENSHOT_URLS = [
     "https://raw.githubusercontent.com/sti000en/fusion-altstore-source/main/screenshots/screenshot-1.jpg",
@@ -132,6 +133,7 @@ def default_source():
         "subtitle": "Fusion builds for AltStore and SideStore.",
         "description": "Automatisch generierte Update-Quelle für Fusion von yodaluca23.",
         "website": "https://github.com/yodaluca23/Fusion-AltStore",
+        "headerURL": HEADER_URL,
         "tintColor": "1E90FF",
         "news": [],
         "apps": [
